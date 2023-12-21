@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP Pusher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <!-- add skip navigation -->
+    <a class="skip" href="#main">Skip Navigation</a>
+    <!-- navigation menu -->
+    <nav>
+      <img src="images/wppusher-logo.png" alt="website logo" />
+      <ul class="nav-list">
+        <li><a href="">Download</a></li>
+        <li><a href="">Learn More</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="" aria-current=""><span class="nav-focus">Account</span></a></li>
+      </ul>
+    </nav>
+   <!-- main content -->
+    <main id="main">
+      <div class="container">
+        <div class="left">
+          <h2>Checkout</h2>
+          <hr>
+          <form action="" method="get">
+              <h3> <div class="circle"><span class="circle-text">1</span></div> Your Basic Information</h3>
+              <div class="upper">
+                <p>
+                  <label for="firstName">First Name</label><br />
+                  <input id="firstName" type="text" name="firstName" aria-required="true" placeholder="Jane" />
+                </p>
+                <p>
+                  <label for="lastName">Last Name</label><br />
+                  <input id="lastName" type="text" name="lastName" aria-required="true" placeholder="Doe"/>
+                </p>
+                <p class="select-mail">
+                  <label for="email">Email</label><br/>
+                  <input id="email" type="email" name="email" placeholder="janedoe@example.com">
+                </p>
+              </div>
+              
+                <hr>
+
+                <h3> <div class="circle"><span class="circle-text">2</span></div> Your Payment Information</h3>
+                <p class="lower">
+                    <label for="creditInfo">Credit card</label><br />
+                    <input type="text" name="firstName" aria-required="true" placeholder="Card Number" maxlength="20" id="creditInfo">
+                    <input type="text" placeholder="MM/YY" maxlength="4" id="creditDate">
+                    <input type="text" placeholder="CVC" maxlength="3" id="creditCVC">
+                  </p>
+                  <hr>
+                  <div class="form-bottom">
+                    <button type="submit">Buy WP Pusher</button>
+                    <div class="form-bottom-text">
+                      <img src="images/Mask.png" alt="question image">
+                      <p> <span class="bold">Need any help?</span>  Don't hesitate to <span class="contact">contact</span> support!</p> 
+                    </div>
+                    <img class="powered" src="images/powered_by_stripe.png" alt="stripe logo">
+                  </div>              
+          </form>
+        </div>
+
+        <div class="right">
+          <h3>Freelancer</h3>
+          <p class="price"><span class="dollar">$</span><span class="nine"> <span class="big">99</span>/ year</span> </p>
+          <p class="right-word">Automatically renews<br> after one year.</p>
+          <ul>
+              <li> <img src="images/Combined Shape.png" alt="checkmark"> <p>Use on <span class="five">5</span> client sites</li></p>
+              <li> <img src="images/Combined Shape.png" alt="checkmark"> <p>Private repositories</p></li>
+              <li> <img src="images/Combined Shape.png" alt="checkmark"><p>Email support</p> </li>
+          </ul>
+          <div class="agency">
+              <p>Need <span class="twenty">20</span> client sites?</p>
+          <a href="">Switch to the <em>Agency</em> plan</a>
+          </div>
+          <hr>
+          <div class="testimonial">
+              <div class="testimonial-text">
+                  <p>FTP is horrible to deal with.</p><span class="push">WP Pusher</span> solves that issue, and the customer support is awesome! </div>
+              <div class="testimonial-image">
+                  <img src="images/Bitmap.png" alt="Kirk Beard image">
+                  <p>Kirk Beard</p>
+              </div>    
+          </div>
+          
+        </div>
+      </div>
+      
+    </main>
+    <footer>
+        <p> &#169; 2018 WP Pusher IVS ·<a href=""> Terms of Service</a></p>
+    </footer>
+  </body>
+</html>
